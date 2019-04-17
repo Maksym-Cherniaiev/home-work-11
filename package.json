@@ -27,7 +27,7 @@
     "gulp-notify": "^3.2.0",
     "gulp-rename": "^1.4.0",
     "gulp-sass": "^4.0.2",
-    "gulp-uglify": "^3.0.2",
+    "gulp-sourcemaps": "^2.6.5",
     "gulp-uglify-es": "^1.0.4",
     "imagemin-pngquant": "^7.0.0"
   },
