@@ -1,0 +1,39 @@
+.properties-container {
+	width: 80%;
+	display: flex;
+	justify-content: space-between;
+    align-items: center;
+	margin-bottom: 20px;
+}
+
+.properties-container__search-employee {
+	display: flex;
+	align-items: center;
+}
+
+.search-employee__label {
+	color: rgb(51, 85, 155);
+}
+
+.search-employee__input {
+	outline: none;
+	border: none;
+	border-radius: 3px; 
+	margin: 0 5px 0 5px;
+	height: 28px;
+	background-color: rgb(218, 225, 252);
+}
+
+.btn {
+	background-color: rgb(152, 175, 246);
+    height: 28px;
+    border: none;
+    outline: none;
+    color: #dae1fc;
+    border-radius: 3px;
+    font-size: 1em;
+}
+
+.btn:active {
+	background-color: rgb(102, 131, 209);
+}

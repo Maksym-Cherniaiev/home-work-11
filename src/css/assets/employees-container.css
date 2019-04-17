@@ -1,0 +1,54 @@
+.employees-container {
+	width: 90%;
+	background-color: rgb(218, 225, 252);
+	margin-bottom: 20px;
+	border-radius: 12px;
+}
+
+
+.employees-container__list {
+	padding: 0;
+	margin: 0;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.employees-container__list-element {
+	width: 90%;
+	height: 43px;
+	transition: height 0.5s ease-in;
+	background-color: rgb(194, 206, 250);
+	display: flex;
+	justify-content: space-between;
+	padding: 15px 15px 0 15px;
+	margin: 10px 0 10px 0;
+	border-radius: 6px;
+}
+
+.employees-container__list-element--active {
+	height: 250px;
+}
+
+.list__button {
+	background-color: rgb(152, 175, 246);
+	width: 15%;
+	height: 28px;
+	border: none;
+	outline: none;
+	color: #dae1fc;
+	border-radius: 3px;
+	font-size: 1em;
+}
+
+.list__button:active {
+	background-color: rgb(102, 131, 209);
+}
+
+.list__employee-name {
+	color: rgb(51, 85, 155);
+	font-weight: 600;
+	font-size: 1.3em;
+	margin: 0;
+	line-height: 25px;
+}

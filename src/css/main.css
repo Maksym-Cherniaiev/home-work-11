@@ -1,0 +1,17 @@
+@import "assets/properties-container.css";
+@import "assets/employees-container.css";
+
+.main-container {
+	font-family: 'News Cycle', sans-serif;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 900px;
+	background-color: rgb(240, 243, 254);
+	margin: auto;
+	border-radius: 8px;
+}
+
+.page-title {
+	color: rgb(52, 85, 155);
+}

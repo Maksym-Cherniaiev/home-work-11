@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>database</title>
+	<link rel="stylesheet" 
+				href="dist/css/bundle.min.css">
+  <link href="https://fonts.googleapis.com/css?family=News+Cycle:400,700" 
+				rel="stylesheet">
+</head>
+<body>
+	<div class="main-container">
+		<h1 class="page-title">Company Employee List</h1>
+		<div class="properties-container">
+			<button class="btn properties-container__load-list" id="get-full-data">Load list of employees</button>
+			<button class="btn properties-container__clear-list" id="clear-list">clear list</button>
+			<div class="properties-container__search-employee">
+				<label class="search-employee__label">search employee by name
+					<input class="search-employee__input" type="text" name="employee-name" placeholder="enter employee name">
+				</label>
+				<button class="btn search-employee__button" id="get-one-employee">search</button>
+			</div>
+		</div>
+		<div class="employees-container">
+			<ol class="employees-container__list">
+			</ol>
+		</div>
+	</div>
+	<script src="dist/js/main.min.js"></script>
+</body>
+</html>
